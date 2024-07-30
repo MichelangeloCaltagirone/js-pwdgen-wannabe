@@ -27,8 +27,8 @@ a variabili (costanti).
 
 
 // Fase Prep
-const secretPwd = document.getElementById('result');
-console.log(secretPwd);
+const resultDiv = document.getElementById('result');
+console.log(resultDiv);
 
 
 // Fase Racc. Dati
@@ -38,3 +38,14 @@ const lasttName = prompt('Digita il tuo Cognome', 'Caltagirone');
 console.log(lasttName);
 const favCol = prompt('Digita il tuo colore preferito', 'Viola');
 console.log(favCol);
+
+
+// Fase lavorazioni dati
+
+let secretPwd = fisrtName + lasttName + favCol;
+console.log(secretPwd);
+
+
+// Fase prod. output
+
+resultDiv.innerText = secretPwd +='21';
