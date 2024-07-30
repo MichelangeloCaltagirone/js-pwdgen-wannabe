@@ -38,11 +38,11 @@ const resultElement = document.getElementById('result');
 // Fase Racc. Dati
 // Chiedo all'utente i dati richiesti, tramite prompt, e li assegno a delle const
 const fisrtName = prompt('Digita il tuo Nome', 'michelangelo');
-console.log(fisrtName);
+console.log(fisrtName); // istruzione commentabile
 const lasttName = prompt('Digita il tuo Cognome', 'caltagirone');
-console.log(lasttName);
+console.log(lasttName); // istruzione commentabile
 const favCol = prompt('Digita il tuo colore preferito', 'viola');
-console.log(favCol);
+console.log(favCol);   // istruzione commentabile
 
 
 // Fase lavorazioni dati
@@ -55,7 +55,7 @@ console.log(secretPwd);
 //metodo alternativo
 // creo una const, sommando direttamente tutte le stringhe necessarie
 const secretPwd = fisrtName + lasttName + favCol + '21';
-console.log(secretPwd);
+console.log(secretPwd);  // istruzione commentabile
 
 
 // Fase prod. output
@@ -67,7 +67,7 @@ console.log(secretPwd);
 /* Mostro la const creata prima in pagina, già compresa di suffisso, con dei backtick per accompagnarla con del testo (cambio solo il
 contenuto testuale)*/
 //resultElement.innerText = `La tua password super segreta è: ${secretPwd}, salvala mi raccomando!`;
-console.log(resultElement);
+console.log(resultElement);  // istruzione commentabile
 // Mostro la const creata prima, inserendola direttamente nel HTML dell'elemento in pagina.
 resultElement.innerHTML = `La tua super password segreta è: <strong>${secretPwd}</strong> , salvala mi raccomando!!`;
-console.log(resultElement);
+console.log(resultElement);  // istruzione commentabile
