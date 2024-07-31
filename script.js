@@ -69,5 +69,5 @@ contenuto testuale)*/
 //resultElement.innerText = `La tua password super segreta è: ${secretPwd}, salvala mi raccomando!`;
 console.log(resultElement);  // istruzione commentabile
 // Mostro la const creata prima, inserendola direttamente nel HTML dell'elemento in pagina.
-resultElement.innerHTML = `La tua super password segreta è: <strong>${secretPwd}</strong> , salvala mi raccomando!!`;
+resultElement.innerHTML = `La tua <i>super password segreta</i> è: <strong>${secretPwd}</strong> , salvala mi raccomando!!`;
 console.log(resultElement);  // istruzione commentabile
